@@ -16,6 +16,8 @@ bool pm_isEmpty(PROCESS_MANAGER *pm){
     return pm->size == 0;
 }
 
+// commit comments
+
 void insert_front(PROCESS_MANAGER *pm, PROCESS_QUEUE pq){
     if (pm_isFull(pm)) {
         printf("Error: Process manager is full. Cannot insert at front.");
